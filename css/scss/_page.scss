@@ -1,0 +1,41 @@
+.page {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;            //direction flex items are placed in the flex container
+  flex-wrap: nowrap;                //wrap
+  justify-content: space-around;    //horizontal distribution and alignment
+  align-items: center;              //vertical alignment
+  align-content: space-around;      //vertical distribution
+
+  background-image: none; // Reset unusual Firefox-on-Android default style;
+
+  .nav_bar{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 0 5px;
+    // background-color: red;
+
+    .nav{
+      font-weight: 200;
+      &.active{
+        font-weight: 700;
+      }
+    }
+  }
+  .middle_container{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    // background-color: blue;
+
+  }
+  .foot_spacer{
+    display: flex;
+    height: 10vh;
+    padding: 5px;
+    // background-color: yellow;
+  }
+}

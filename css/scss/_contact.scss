@@ -1,0 +1,19 @@
+#contact{
+  background-color: $black; /* fallback for old browsers */
+  background: -webkit-linear-gradient(110deg, $black , $dark_grey); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(110deg, $black , $dark_grey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .nav_bar, .nav{
+    color: $light_grey;
+    font-weight: 200;
+    &.active{
+      font-weight: 700;
+      color: $pure_white;
+    }
+  }
+  // h2, p, h1, a{
+  //   color: $dark_grey;
+  // }
+  // h2, p, h1, a{
+  //   color: $pure_white;
+  // }
+}

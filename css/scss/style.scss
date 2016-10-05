@@ -1,0 +1,23 @@
+// need to run https://github.com/postcss/autoprefixer after compiling sass
+// to compile and watch, run in console: sass --watch css/scss/style.scss:css/style.css
+
+// import variables
+// note: importing does not need the underscore
+@import "variables";
+
+// import resest
+@import "normalize"; // like css reset where it resets the default browser settings
+@import "scaffolding";
+
+// page settings
+@import "page";
+@import "home";
+@import "about";
+@import "contact";
+@import "projects";
+
+// import mixins
+@import "mixins/buttons";
+
+// import buttons
+@import "buttons";

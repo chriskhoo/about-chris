@@ -1,0 +1,82 @@
+/*
+
+*/
+
+// colors
+$darkblue:                #23173C   !default;
+$blue:                    #3D6EA8   !default;
+$offwhite:                #FFFBB4   !default;
+$yellow:                  #FFD800   !default;
+$red:                     #FF1500   !default;
+
+
+$pure_white:                    #FFFFFF   !default;
+$almost_white:                  #EEEEEE   !default;
+$off_white:                     #DDDDDD   !default;
+$light_grey:                    #AAAAAA   !default;
+$mid_grey:                      #555555   !default;
+$dark_grey:                     #222222   !default;
+$black:                         #000000   !default;
+
+$primary-color:                 #FFFFFF   !default;
+$bg-color:                      #000000   !default;
+
+// brand color (from company)
+// primary (primary actions, adapted on the brand color)
+// secondary color (secondary actions)
+
+
+// typography
+// fontsizes ( root(base) PX, body REM --> root em, heading --> root em )
+$root-font-size:          12px;
+$base-font-size:          1rem;
+$headings-font-size:      1.2rem;
+// font family ( max 3 fonts but typically 2 )
+$font-family-base:        Helvetica, Arial, sans-serif !default;
+// text color
+$text-color:              $red ;
+
+// scaffolding
+// universal body stuff ( background, links )
+
+
+
+// grid
+// media query breakpoints
+// grid system
+// containers
+
+// components
+// globals (border radius, font size for all buttons, padding, line height )
+// border radius
+$border-radius-button:                   4rem;
+// padding
+$base-padding-horizontal:                2rem;
+$base-padding-vertical:                  1.5rem;
+// line-height
+$base-line-height:                       1.428 !default;
+
+// buttons
+$btn-border-radius-base:                  $border-radius-button   !default;
+$btn-line-height:                         ceil($base-line-height) ;
+
+// button variants
+$btn-primary-color:                       $text-color;
+$btn-primary-background:                  $primary-color;
+$btn-primary-border:                      darken($primary-color, 20%);
+
+// cards
+// forms
+// dropdown
+// nav bar
+// nav
+// tables (only if needed)
+
+// alerts & states
+
+
+
+// sites specific
+// pagination
+// pagers --> not really used any more, use infinite scrolling
+// jumbotron

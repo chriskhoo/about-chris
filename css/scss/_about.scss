@@ -1,0 +1,60 @@
+#about{
+  background-color: $pure_white;
+  .nav_bar, .nav{
+    color: $light_grey;
+    font-weight: 200;
+    &.active{
+      font-weight: 700;
+      color: $black;
+    }
+  }
+
+
+  .middle_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+
+    h2, h3, p{
+      padding: 0 5vw;
+      display: block;
+      text-align: left;
+    }
+
+    .top_panel{
+      display: block;
+      width: 100vw;
+      align: center;
+      text-align: center;
+      color: $dark_grey;
+    }
+    .left_panel{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 50vw;
+      h3{
+        color: $light_grey;
+      }
+      p{
+        color: $dark_grey;
+      }
+    }
+    .right_panel{
+      display: flex;
+      margin: 0 5vw;
+      width: 30vw;
+      height: 65vh;
+      border-radius: 10%;
+      overflow: hidden;
+      background-image: url("../assets/img/chris.jpg");
+      background-size: cover;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  }
+}

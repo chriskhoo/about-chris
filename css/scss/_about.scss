@@ -30,6 +30,7 @@
       align: center;
       text-align: center;
       color: $dark_grey;
+      font-family: $font-family-secondary;
     }
     .left_panel{
       display: flex;
@@ -38,9 +39,12 @@
       width: 50vw;
       h3{
         color: $light_grey;
+        font-family: $font-family-secondary;
+        font-size: $large-heading-font-size;
       }
       p{
         color: $dark_grey;
+        font-family: $font-family-secondary;
       }
     }
     .right_panel{

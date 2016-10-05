@@ -31,8 +31,11 @@ $bg-color:                      #000000   !default;
 $root-font-size:          12px;
 $base-font-size:          1rem;
 $headings-font-size:      1.2rem;
+$large-heading-font-size: 2rem;
+$icon-font-size:          5rem;
 // font family ( max 3 fonts but typically 2 )
-$font-family-base:        Helvetica, Arial, sans-serif !default;
+$font-family-base:        Futura, Arial, sans-serif !default; //Helvetica
+$font-family-secondary:   Didot, serif !default;
 // text color
 $text-color:              $red ;
 

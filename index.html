@@ -5,7 +5,9 @@
     <title>
       Chris Khoo
     </title>
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css" >
+
   </head>
   <body>
     <div id="home" class="page">
@@ -47,7 +49,7 @@
           <p>
             I'm a Singaporean living the life of a global nomad since the tender age of 13. <br />
             Solving problems and creating new things with tangible impact really excite me. I come from a background in engineering and a professional career focused on solving strategic management issues, which influences my ability to quickly pick up technical concepts while also incorporating pragmatic design.<br />
-            I LOVE good food, enjoy learning and take a multidisciplinary approach to life and work. <br />
+            I &#10084; good food, enjoy learning and take a multidisciplinary approach to life and work. <br />
           </p>
         </div>
         <div class="right_panel">
@@ -71,21 +73,30 @@
       </div>
       <div class="middle_container">
         <div class="left_panel">
-          <div class="buttons">
-            <p>Click to learn more</p>
-              <button>Project 1</button>
-              <button>Project 2</button>
-              <button>Project 3</button>
-              <button>Project 4</button>
+          <div id="computer">
           </div>
-          <h3 id="project_title"></h3>
-          <p  id="project_description"></p>
-          <h2 id="project_stack">Technology Stack</h3>
-          <div id="project_logos"></div>
         </div>
         <div class="right_panel">
-          <div class="computer">
-
+          <div class="buttons">
+            <p id="project_instructions">Click to learn more</p>
+            <div class="button_row">
+              <button class="bttn" id="kindjobs">KindJobs</button>
+              <button class="bttn" id="amealzing">A-MEAL-ZING</button>
+            </div>
+            <div class="button_row">
+              <button class="bttn" id="guestronomy">Guestronomy</button>
+              <button class="bttn" id="reversi">Reversi</button>
+            </div>
+          </div>
+          <div id="project_text">
+            <h2 id="project_title"></h2>
+            <p id="project_description"></p>
+            <h3 id="project_stack">
+            </h3>
+            <div id="project_logos">
+              <a id="project_github" href="#" target="_ blank"></a>
+              <a id="project_link" href="#" target="_ blank"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -106,9 +117,17 @@
       </div>
       <div class="middle_container">
         <div class="middle_text">
-          <button>MAI</button><button>LIn</button><button>GIT</button><button>RES</button>
+          <a id="cv" href="./assets/doc/ChristopherKhoo_CV_2016_GA.pdf" target="_ blank"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+          &nbsp;
+          <a id="linkedIn" href="http://www.linkedin.com/in/chris-khoo" target="_ blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          &nbsp;
+          <a id="git" href="http://github.com/chriskhoo" target="_ blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          &nbsp;
+          <a id="email" href="mailto:khooweiwen@gmail.com?subject=Email from aboutChris:"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
         </div>
-        <div class="text_display"></div>
+        <div class="text_bar">
+          <div id="text_display"></div>
+        </div>
       </div>
       <div class="foot_spacer">
       </div>
@@ -117,6 +136,7 @@
     <div>
       <a href="" class="btn is-primary">Click me!</a>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="./app.js"></script>
   </body>
 </html>

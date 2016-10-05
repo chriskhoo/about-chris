@@ -3,9 +3,6 @@
   background: -webkit-linear-gradient(110deg, $black , $mid_grey); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(110deg, $black , $mid_grey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  h1{
-    color: $almost_white;
-  }
   .nav_bar, .nav{
     color: $light_grey;
     font-weight: 200;
@@ -14,5 +11,10 @@
       color: $almost_white;
     }
   }
-
+  .middle_text{
+    color: $almost_white;
+    font-size: $icon-font-size;
+    font-family: $font-family-secondary;
+    text-shadow: -0.05em -0.05em 0.05em rgba(255,255,255,0.1)
+  }
 }

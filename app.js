@@ -95,14 +95,20 @@ $(function() {
   // function for the option
   var fill_project_fn = function(string, name){
     $('#'+string).click(function(){
+      // clear instructions
       $('#project_instructions').html('');
+      // clear previous selections
       $('.selected').toggleClass('selected');
+      // mark selection
       $('#'+string).toggleClass('selected');
+      // replace contents of each section using the data set in the objects above
       $.each(name, function(index, value) {
         $('#project_'+index).html(value)
       });
+      // swap out the project links
       $('#project_github').attr('href', name.github_src);
       $('#project_link').attr('href', name.link_src);
+      // load the image of the project
       $('#computer').css('background-image', name.image);
     })
   };
@@ -118,20 +124,19 @@ $(function() {
   var hover_msg = function(id, message){
     $(id).on({
         mouseenter: function () {
-            //stuff to do on mouse enter
+            //fill text when mouse enters
             $('#text_display').html(message);
         },
         mouseleave: function () {
-            //stuff to do on mouse leave
+            //clear div when mouse leaves
             $('#text_display').html('');
         }
     });
   }
+  // set up for all the links
   hover_msg(  '#cv',        'Download my CV'            );
   hover_msg(  '#linkedIn',  'Visit my LinkedIn profile' );
   hover_msg(  '#git',       'Visit my GitHub page'      );
   hover_msg(  '#email',     'Drop me an email'          );
-
-
 
 }); // jquery

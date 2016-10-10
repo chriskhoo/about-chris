@@ -12,7 +12,7 @@ The Sass architecture was adapted from a quick tutorial who used components as a
 
 Tech Stack
 ----------
-# HTML
-# JavaScript
-# Sass 
+* HTML
+* JavaScript
+* Sass 
 

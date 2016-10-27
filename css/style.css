@@ -505,7 +505,7 @@ img {
       border-radius: 10%;
       overflow: hidden;
       background-image: url("../assets/img/chris.jpg");
-      background-size: auto 100%;
+      background-size: contain;
       background-position: right;
       background-repeat: no-repeat;
       background-attachment: fixed; }

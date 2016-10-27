@@ -714,7 +714,9 @@ img {
         #projects .middle_container .right_panel h2, #projects .middle_container .right_panel h3 {
           font-size: 1rem; }
         #projects .middle_container .right_panel p {
-          font-size: 0.8rem; } }
+          font-size: 0.8rem; }
+        #projects .middle_container .right_panel #project_text #project_logos i {
+          font-size: 3rem; } }
 
 .btn {
   display: inline-block;

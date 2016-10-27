@@ -17,24 +17,24 @@
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: flex-start;
+
     .left_panel{
       display: flex;
       justify-content: center;
       flex-direction: row;
       flex-wrap: wrap;
-      // align-content: flex-start;
       align-items: center;
 
       width:  60vw;
       height: 80vh;
-      min-width:  400px;
-      min-height: 350px;
+      // min-width:  400px;
+      // min-height: 350px;
       // background-color: blue;
       #computer{
         width: 50vw;
         height: 26vw;
-        min-width:  300px;
-        min-height: 157px;
+        // min-width:  300px;
+        // min-height: 157px;
         // background-color: red;
         overflow: hidden;
         background-image: url("../assets/img/mac.png");
@@ -54,22 +54,22 @@
 
       width:  40vw;
       height: 80vh;
-      min-width:  350px;
-      min-height: 350px;
+      // min-width:  350px;
+      // min-height: 350px;
       // background-color: purple;
 
       .buttons{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        align-content: flex-end;
+        // align-content: flex-end;
         height: 20vh;
         p{
           color: $light_grey;
         }
         .button_row{
           width:  40vw;
-          min-width:  350px;
+          // min-width:  350px;
           // background-color: blue;
         }
 
@@ -88,7 +88,6 @@
             color:              $almost_white;
           }
         }
-
 
         .bttn:before, .bttn:after  {
           border-color:transparent;
@@ -121,7 +120,6 @@
           height:calc(100% + 12px);
           border-color:#353535
         }
-
       }
       #project_text{
         display: flex;
@@ -155,9 +153,9 @@
           }
         }
         #project_logos{
-          margin: 10px 0;
-          width:  35vw;
-          min-width:  350px;
+          margin: 10px auto;
+          // width:  35vw;
+          // min-width:  350px;
           i{
             color: $light_grey;
             font-size: $icon-font-size;
@@ -168,6 +166,67 @@
         }
       }
     }
+
+    @media (max-width: 950px) {
+      .left_panel{
+        width:  100vw;
+        height: 30vh;
+        #computer{
+          width: 50vw;
+          height: 26vw;
+        }
+      }
+      .right_panel{
+        width:  100vw;
+        height: 50vh;
+        justify-content: center;
+        #project_instructions{
+          width:  100vw;
+        }
+        .buttons{
+          height: auto;
+          .button_row{
+            width:  auto;
+          }
+        }
+        #project_text{
+          // align-items: center;
+        }
+      }
+    }
+
+    @media (max-width: 530px) {
+      .left_panel{
+        width:  100vw;
+        height: 15vh;
+        #computer{
+          width: 50vw;
+          height: 26vw;
+        }
+      }
+      .right_panel{
+        width:  100vw;
+        height: 50vh;
+        justify-content: center;
+        #project_instructions{
+          width:  100vw;
+        }
+        .buttons{
+          height: auto;
+          .button_row{
+            width:  auto;
+          }
+        }
+        h2, h3{
+          font-size: 1rem;
+        }
+        p{
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+
   }
 
 }

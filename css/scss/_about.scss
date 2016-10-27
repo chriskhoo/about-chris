@@ -62,3 +62,12 @@
     }
   }
 }
+
+@media (max-width: 530px) {
+  #about .middle_container .left_panel h3, h2{
+    font-size: 1.2rem;
+  }
+  #about .middle_container .left_panel p{
+    font-size: 0.8rem;
+  }
+}

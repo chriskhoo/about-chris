@@ -505,7 +505,7 @@ img {
       border-radius: 10%;
       overflow: hidden;
       background-image: url("../assets/img/chris.jpg");
-      background-size: contain;
+      background-size: cover;
       background-position: right;
       background-repeat: no-repeat;
       background-attachment: fixed; }
@@ -516,7 +516,7 @@ img {
   #about .middle_container .left_panel p {
     font-size: 0.8rem; }
   #about .middle_container .right_panel {
-    background-position: center center; } }
+    background-position: center; } }
 #contact {
   background-color: #000000;
   /* fallback for old browsers */

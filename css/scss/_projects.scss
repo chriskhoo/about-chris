@@ -25,7 +25,7 @@
       flex-wrap: wrap;
       align-items: center;
 
-      width:  60vw;
+      width:  50vw;
       height: 80vh;
       // min-width:  400px;
       // min-height: 350px;
@@ -52,7 +52,7 @@
       flex-wrap: wrap;
       // align-items: center;
 
-      width:  40vw;
+      width:  50vw;
       height: 80vh;
       // min-width:  350px;
       // min-height: 350px;
@@ -167,38 +167,10 @@
       }
     }
 
-    @media (max-width: 950px) {
+    @media (max-width: 780px) {
       .left_panel{
         width:  100vw;
         height: 30vh;
-        #computer{
-          width: 50vw;
-          height: 26vw;
-        }
-      }
-      .right_panel{
-        width:  100vw;
-        height: 50vh;
-        justify-content: center;
-        #project_instructions{
-          width:  100vw;
-        }
-        .buttons{
-          height: auto;
-          .button_row{
-            width:  auto;
-          }
-        }
-        #project_text{
-          // align-items: center;
-        }
-      }
-    }
-
-    @media (max-width: 530px) {
-      .left_panel{
-        width:  100vw;
-        height: 15vh;
         #computer{
           width: 50vw;
           height: 26vw;
@@ -226,6 +198,32 @@
         #project_text #project_logos i{
           font-size: 3rem;
         }
+      }
+    }
+
+    @media (max-width: 460px) {
+      .left_panel{
+        width:  100vw;
+        height: 15vh;
+        #computer{
+          width: 50vw;
+          height: 26vw;
+        }
+      }
+      .right_panel{
+        width:  100vw;
+        height: 50vh;
+        justify-content: center;
+        #project_instructions{
+          width:  100vw;
+        }
+        .buttons{
+          height: auto;
+          .button_row{
+            width:  auto;
+          }
+        }
+
       }
     }
 

@@ -505,7 +505,7 @@ img {
       border-radius: 10%;
       overflow: hidden;
       background-image: url("../assets/img/chris.jpg");
-      background-size: cover;
+      background-size: auto 100%;
       background-position: right;
       background-repeat: no-repeat;
       background-attachment: fixed; }
@@ -584,7 +584,7 @@ img {
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      width: 60vw;
+      width: 50vw;
       height: 80vh; }
       #projects .middle_container .left_panel #computer {
         width: 50vw;
@@ -599,7 +599,7 @@ img {
       justify-content: flex-start;
       flex-direction: row;
       flex-wrap: wrap;
-      width: 40vw;
+      width: 50vw;
       height: 80vh; }
       #projects .middle_container .right_panel .buttons {
         display: flex;
@@ -678,27 +678,10 @@ img {
             font-size: 5rem; }
           #projects .middle_container .right_panel #project_text #project_logos i:hover {
             color: #222222; }
-    @media (max-width: 950px) {
+    @media (max-width: 780px) {
       #projects .middle_container .left_panel {
         width: 100vw;
         height: 30vh; }
-        #projects .middle_container .left_panel #computer {
-          width: 50vw;
-          height: 26vw; }
-      #projects .middle_container .right_panel {
-        width: 100vw;
-        height: 50vh;
-        justify-content: center; }
-        #projects .middle_container .right_panel #project_instructions {
-          width: 100vw; }
-        #projects .middle_container .right_panel .buttons {
-          height: auto; }
-          #projects .middle_container .right_panel .buttons .button_row {
-            width: auto; } }
-    @media (max-width: 530px) {
-      #projects .middle_container .left_panel {
-        width: 100vw;
-        height: 15vh; }
         #projects .middle_container .left_panel #computer {
           width: 50vw;
           height: 26vw; }
@@ -718,6 +701,23 @@ img {
           font-size: 0.8rem; }
         #projects .middle_container .right_panel #project_text #project_logos i {
           font-size: 3rem; } }
+    @media (max-width: 460px) {
+      #projects .middle_container .left_panel {
+        width: 100vw;
+        height: 15vh; }
+        #projects .middle_container .left_panel #computer {
+          width: 50vw;
+          height: 26vw; }
+      #projects .middle_container .right_panel {
+        width: 100vw;
+        height: 50vh;
+        justify-content: center; }
+        #projects .middle_container .right_panel #project_instructions {
+          width: 100vw; }
+        #projects .middle_container .right_panel .buttons {
+          height: auto; }
+          #projects .middle_container .right_panel .buttons .button_row {
+            width: auto; } }
 
 .btn {
   display: inline-block;

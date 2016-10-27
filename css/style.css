@@ -516,7 +516,21 @@ img {
   #about .middle_container .left_panel p {
     font-size: 0.8rem; }
   #about .middle_container .right_panel {
-    background-position: center; } }
+    background-position: center; }
+  #about .middle_container .right_panel:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("../assets/img/chris.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 #contact {
   background-color: #000000;
   /* fallback for old browsers */
